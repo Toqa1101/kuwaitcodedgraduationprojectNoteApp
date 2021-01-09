@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".activities.MainActivity">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifUser"
+        android:layout_width="400dp"
+        android:layout_height="450dp"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:src="@drawable/useinfo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textWelcom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ubuntubold"
+        android:text="@string/creat_notes"
+        android:textSize="@dimen/_18ssp"
+        android:textAlignment="center"
+        android:textColor="@color/quickAction"
+        app:layout_constraintTop_toBottomOf="@id/gifUser"
+        android:padding="@dimen/_5sdp"
+        android:includeFontPadding="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/textHaveFun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ubuntumedium"
+        android:textSize="@dimen/_12ssp"
+        android:text="@string/intro"
+        android:paddingTop="@dimen/_8sdp"
+        android:paddingBottom="@dimen/_8sdp"
+        android:layout_marginStart="@dimen/_40sdp"
+        android:layout_marginEnd="@dimen/_40sdp"
+        android:textAlignment="center"
+        android:includeFontPadding="false"
+        android:textColor="@color/textHint"
+        app:layout_constraintTop_toBottomOf="@id/textWelcom"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's Start"
+        android:layout_marginEnd="@dimen/_30sdp"
+        android:layout_marginBottom="@dimen/_40sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textHaveFun"
+        android:background="@drawable/background_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

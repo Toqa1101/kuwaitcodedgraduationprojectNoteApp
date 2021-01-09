@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#ffffff</color>
+    <color name="primaryDark">#1D0937</color>
+    <color name="accent">#F4ABC4</color>
+    <color name="colorSearchIcon">#dbdbdb</color>
+    <color name="textHint">#7b7b7b</color>
+    <color name="quickAction">#3C2C51</color>
+    <color name="white">#ffffff</color>
+    <color name="searchBar">#fdffbc</color>
+    <color name="coloricons">#a4a4a4</color>
+    <color name="colorsubtitle">#cecece</color>
+    <color name="defualtnote">#333333</color>
+    <color name="colorMisce">#E6240C43</color>
+    <color name="colornote2">#944e6c</color>
+    <color name="colornote3">#83a95c</color>
+    <color name="colornote4">#FF018786</color>
+    <color name="colornote5">#ef4f4f</color>
+    <color name="colorDelete">#ff4842</color>
+    <color name="colorSearchBg">#333456</color>
+
+
+</resources>
